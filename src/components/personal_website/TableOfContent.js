@@ -18,7 +18,7 @@ export default function TableOfContent(){
                 }
             })
         }, {
-            rootMargin: "-10% 0px -60% 0px"
+            rootMargin: "-10% 0px -50% 0px"
         })
         const headings = Array.from(document.querySelectorAll("h1"));
         headings.forEach((element) => observer.observe(element))
