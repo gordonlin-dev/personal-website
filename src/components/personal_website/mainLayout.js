@@ -1,15 +1,20 @@
+import TopNavigationMenu from "./topNavigationMenu";
 export default function MainLayout({children}){
     return(
         <>
-            <main className="bg-background-main h-full w-full overflow-hidden">
-                <div className="grid grid-rows-7" >
-                    <div className="row-span-1 bg-background-header">
-                        <div>
-                            Test
-                        </div>
+            <main className="bg-background-main h-screen w-screen overflow-hidden">
+                <div className="h-16">
+                    <TopNavigationMenu/>
+                </div>
+                <div>
+                    {children}
+                </div>
+                {/*<div className="grid grid-rows-10" >
+                    <div className="row-span-3 bg-background-header">
+                        <TopNavigationMenu/>
                     </div>
-                    <div className="row-span-6">
-                        <div className="grid grid-cols-7">
+                    <div className="row-span-7">
+                        <div className="grid-cols-7">
                             <div className="col-span-6">
                                 {children}
                             </div>
@@ -18,7 +23,7 @@ export default function MainLayout({children}){
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>*/}
             </main>
         </>
     )
