@@ -2,10 +2,11 @@ import {useEffect} from "react";
 
 export default function TableOfContent(){
     useEffect(() => {
+        const validHeaderIds = ["about-me", "experience", "projects", "contact"]
         const tableOfContentLinks = document.getElementById("table-of-content").children
         const observer = new IntersectionObserver(entries => {
             entries.forEach(entry =>{
-                if(entry.isIntersecting){
+                if(entry.isIntersecting && validHeaderIds.includes(entry.target.id)){
                     const currentId = entry.target.id
                     for (let i = 0; i < tableOfContentLinks.length; i++){
                         const id = tableOfContentLinks[i].id
@@ -43,11 +44,11 @@ export default function TableOfContent(){
                 <li className= "mb-3" id="experience">
                     <a href="#experience" onClick={(e) => scroll(e, "experience")}>Experience</a>
                 </li>
-                <li className= "mb-3" id="test3">
-                    <a href="#test3" onClick={(e) => scroll(e, "test3")}>Projects</a>
+                <li className= "mb-3" id="projects">
+                    <a href="#projects" onClick={(e) => scroll(e, "projects")}>Projects</a>
                 </li>
-                <li className= "mb-3" id="test4">
-                    <a href="#test4" onClick={(e) => scroll(e, "test4")}>Contact</a>
+                <li className= "mb-3" id="contact">
+                    <a href="#contact" onClick={(e) => scroll(e, "contact")}>Contact</a>
                 </li>
             </ul>
         </nav>

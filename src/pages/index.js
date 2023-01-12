@@ -1,7 +1,7 @@
 import MainLayout from "../components/personal_website/mainLayout";
-import ImageContainer from "../components/personal_website/imageContainer";
 import AboutMe from "../components/personal_website/content/aboutMe";
 import Experience from "../components/personal_website/content/experience";
+import Projects from "../components/personal_website/content/projects";
 
 
 export default function Index() {
@@ -11,15 +11,7 @@ export default function Index() {
             <div id="body" className="pt-20 pl-10 pr-10 pb-10">
                 <AboutMe/>
                 <Experience/>
-                <h1 id="test3" className="text-color-text-body-white text-3xl">Test 3</h1>
-                <ImageContainer
-                    src="/MeetUT_Logo.png"
-                    alt=""
-                    width="300"
-                    height="300"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis quam elit. Cras fringilla neque tellus, quis cons"
-                    link="https://www.google.com/"
-                />
+                <Projects/>
                 <h1 id="test4" className="text-color-text-body-white text-3xl">Test 4</h1>
                 <div className="text-color-text-body-white text-3xl">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis quam elit. Cras fringilla neque tellus, quis consequat lacus convallis vehicula. Curabitur eget lobortis urna. Curabitur aliquet, purus in finibus varius, metus lorem ultrices diam, eget dignissim ipsum odio et nisl. Duis aliquet malesuada ex commodo convallis. Nam enim magna, hendrerit vitae justo in, dapibus consectetur est. Duis blandit in mauris cursus mattis. Sed vulputate lobortis ipsum, quis malesuada mi tempus sed. Integer vitae arcu eget est tempor ultricies sollicitudin et sapien. Ut congue aliquet velit, eu ultrices velit euismod et. Nam luctus urna non velit elementum sollicitudin. Donec id commodo dolor. Fusce posuere erat quis iaculis feugiat. Duis et augue non felis luctus vehicula. Sed non risus neque.
