@@ -7,8 +7,8 @@ export default function AboutMe() {
             <div className="grid grid-cols-12 pb-40">
                 <div className="col-span-5">
                     <Image
-                        src={"/TimeCourse_Logo.png"}
-                        alt={""}
+                        src="/profile-placeholder.png"
+                        alt=""
                         width={400}
                         height={400}
                         className="h-[400px] w-[400px] relative z-[0]"
