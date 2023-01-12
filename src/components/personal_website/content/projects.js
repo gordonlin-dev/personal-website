@@ -45,14 +45,13 @@ export default function Projects() {
     }
     return(
         <>
-            <h1 id="projects" className="invisible">projects</h1>
+            <h1  id="projects" className="text-color-text-header-dark-yellow
+                font-bold text-center text-4xl mb-20">Personal Projects</h1>
             <div className="grid grid-rows-1 grid-cols-3 pb-40 gap-x-20">
                 <div>
                     <ImageContainer
                         src="/github-logo-1.png"
                         alt=""
-                        width="300"
-                        height="300"
                         description={websiteDescription()}
                         link="https://github.com/gordonlin-dev/personal-website"
                     />
@@ -61,8 +60,6 @@ export default function Projects() {
                     <ImageContainer
                         src="/TimeCourse_logo.png"
                         alt=""
-                        width="300"
-                        height="300"
                         description={timeCourseDescription()}
                         link="https://github.com/gordonlin-dev"
                     />
@@ -71,8 +68,6 @@ export default function Projects() {
                     <ImageContainer
                         src="/MeetUT_Logo.png"
                         alt=""
-                        width="300"
-                        height="300"
                         description={meetUTDescription()}
                         link="https://github.com/gordonlin-dev"
                     />
