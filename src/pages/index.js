@@ -1,6 +1,9 @@
 import MainLayout from "../components/personal_website/mainLayout";
 import ImageContainer from "../components/personal_website/imageContainer";
+<<<<<<< HEAD
 import AboutMe from "../components/personal_website/content/aboutMe";
+=======
+>>>>>>> master
 
 export default function Index() {
   return (
@@ -24,6 +27,8 @@ export default function Index() {
                 <ImageContainer
                     src="/MeetUT_Logo.png"
                     alt=""
+                    width="300"
+                    height="300"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis quam elit. Cras fringilla neque tellus, quis cons"
                     link="https://www.google.com/"
                 />
