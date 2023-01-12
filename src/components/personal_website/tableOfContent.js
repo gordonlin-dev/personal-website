@@ -40,8 +40,8 @@ export default function TableOfContent(){
                 <li className= "mb-3" id="about-me">
                     <a href="#about-me" onClick={(e) => scroll(e, "about-me")}>About me</a>
                 </li>
-                <li className= "mb-3" id="test2">
-                    <a href="#test2" onClick={(e) => scroll(e, "test2")}>Experience</a>
+                <li className= "mb-3" id="experience">
+                    <a href="#experience" onClick={(e) => scroll(e, "experience")}>Experience</a>
                 </li>
                 <li className= "mb-3" id="test3">
                     <a href="#test3" onClick={(e) => scroll(e, "test3")}>Projects</a>
