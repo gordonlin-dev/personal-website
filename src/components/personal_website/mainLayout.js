@@ -14,7 +14,7 @@ export default function MainLayout({children}){
                         {children}
                     </div>
                     <div className="col-span-2">
-                        <div className="flex w-full align-center justify-center h-full fixed top-[15%] left-[43%]">
+                        <div className="flex w-full align-center justify-center h-full fixed top-[15%] left-[43%] z-[0]">
                             <TableOfContent/>
                         </div>
                     </div>
