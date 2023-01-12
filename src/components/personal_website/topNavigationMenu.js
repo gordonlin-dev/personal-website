@@ -11,9 +11,9 @@ export default function TopNavigationMenu(){
 
             </div>
             <div className="col-span-2">
-                <nav className="text-2xl h-full">
-                    <a href="#Contact" className="hover:text-color-text-header-light-blue" >Contact</a>
-                </nav>
+                {/*<nav className="text-2xl h-full">*/}
+                {/*    <a href="#contact" className="hover:text-color-text-header-light-blue" >Contact</a>*/}
+                {/*</nav>*/}
             </div>
         </div>
     )
