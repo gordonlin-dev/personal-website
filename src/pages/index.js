@@ -1,9 +1,7 @@
 import MainLayout from "../components/personal_website/mainLayout";
 import ImageContainer from "../components/personal_website/imageContainer";
-<<<<<<< HEAD
 import AboutMe from "../components/personal_website/content/aboutMe";
-=======
->>>>>>> master
+
 
 export default function Index() {
   return (
