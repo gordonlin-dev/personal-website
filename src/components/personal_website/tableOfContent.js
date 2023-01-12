@@ -1,4 +1,4 @@
-import {useEffect, useRef} from "react";
+import {useEffect} from "react";
 
 export default function TableOfContent(){
     useEffect(() => {
@@ -9,7 +9,7 @@ export default function TableOfContent(){
                     const currentId = entry.target.id
                     for (let i = 0; i < tableOfContentLinks.length; i++){
                         const id = tableOfContentLinks[i].id
-                        if(id == currentId){
+                        if(id === currentId){
                             tableOfContentLinks[i].children[0].style.color = "#A6C2C9";
                         }else{
                             tableOfContentLinks[i].children[0].style.color = "#FFFFFF";

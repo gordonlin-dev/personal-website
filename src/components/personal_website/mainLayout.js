@@ -4,7 +4,7 @@ export default function MainLayout({children}){
     return(
         <>
             <main className="h-full w-full relative">
-                <div className="h-16 fixed top-0 left-0 right-0">
+                <div className="h-16 fixed top-0 left-0 right-0 z-[100]">
                     <TopNavigationMenu/>
                 </div>
                 <div className="mt-16 grid grid-cols-12 bg-background-main">

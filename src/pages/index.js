@@ -42,7 +42,7 @@ export default function Index() {
                     alt=""
                     width="300"
                     height="300"
-                    description="Test 1234"
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis quam elit. Cras fringilla neque tellus, quis cons"
                     link="https://www.google.com/"
                 />
                 <h1 id="test4" className="text-color-text-body-white text-3xl">Test 4</h1>
