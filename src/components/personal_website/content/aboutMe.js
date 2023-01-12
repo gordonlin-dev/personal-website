@@ -19,7 +19,7 @@ export default function AboutMe() {
                     <div className>
                         <h1 className="text-color-text-header-dark-yellow font-bold text-4xl mb-5">About me</h1>
                         <p className="text-color-text-body-white text-xl">
-                            Hi I'm Gordon, a software developer with three years of experience based in Toronto, Canada.
+                            Hi I am Gordon, a software developer with three years of experience based in Toronto, Canada.
                             I am a full stack developer with a focus on backend development.
                             My interests are in cloud computing, observability and distributed systems.
                             Aside from coding, I like to workout and cook.
