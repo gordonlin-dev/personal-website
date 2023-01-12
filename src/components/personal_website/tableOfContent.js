@@ -37,8 +37,8 @@ export default function TableOfContent(){
     return(
         <nav>
             <ul className="text-color-text-body-white text-2xl" id="table-of-content">
-                <li className= "mb-3" id="test1">
-                    <a href="#test1" onClick={(e) => scroll(e, "test1")}>About me</a>
+                <li className= "mb-3" id="about-me">
+                    <a href="#about-me" onClick={(e) => scroll(e, "about-me")}>About me</a>
                 </li>
                 <li className= "mb-3" id="test2">
                     <a href="#test2" onClick={(e) => scroll(e, "test2")}>Experience</a>
