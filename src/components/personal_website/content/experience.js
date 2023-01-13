@@ -27,7 +27,7 @@ export default function Experience() {
                         </li>
                     </ul>
                 </div>
-                <div className="ml-10">
+                <div className="ml-24">
                     <h1 className="text-color-text-header-light-blue text-4xl text-center mb-5">Education</h1>
                     <ul className="text-color-text-body-white text-2xl">
                         <li className="mb-5">
@@ -76,7 +76,7 @@ export default function Experience() {
                         </li>
                     </ul>
                 </div>
-                <div className="ml-10">
+                <div className="ml-24">
                     <h1 className="text-color-text-header-light-blue text-4xl text-center mb-5">Certifications</h1>
                     <ul className="text-color-text-body-white text-2xl list-disc list-inside">
                         <li className="mb-5">
