@@ -6,9 +6,9 @@ export default function Experience() {
                 <div>
                     <h1
                         className="text-color-text-header-light-blue text-4xl text-center mb-5">Experience</h1>
-                    <ul className="text-color-text-body-white text-xl">
+                    <ul className="text-color-text-body-white text-2xl">
                         <li className="mb-5">
-                            <div className="font-bold text-2xl">
+                            <div className="font-bold text-3xl">
                                 Software developer
                             </div>
                             <div className="flex justify-between">
@@ -17,7 +17,7 @@ export default function Experience() {
                             </div>
                         </li>
                         <li className="mb-5">
-                            <div className="font-bold text-2xl">
+                            <div className="font-bold text-3xl">
                                 Software developer intern
                             </div>
                             <div className="flex justify-between">
@@ -29,7 +29,7 @@ export default function Experience() {
                 </div>
                 <div className="ml-10">
                     <h1 className="text-color-text-header-light-blue text-4xl text-center mb-5">Education</h1>
-                    <ul className="text-color-text-body-white text-xl">
+                    <ul className="text-color-text-body-white text-2xl">
                         <li className="mb-5">
                             <div className="font-bold text-2xl">
                                 Honours Bachelor of Science - Computer Science
@@ -43,7 +43,7 @@ export default function Experience() {
                 </div>
                 <div>
                     <h1 className="text-color-text-header-light-blue text-4xl text-center mb-5">Skills</h1>
-                    <ul className="text-color-text-body-white text-xl">
+                    <ul className="text-color-text-body-white text-2xl">
                         <li className="mb-5">
                             <div className="font-bold text-2xl">
                                 Programming languages
@@ -78,7 +78,7 @@ export default function Experience() {
                 </div>
                 <div className="ml-10">
                     <h1 className="text-color-text-header-light-blue text-4xl text-center mb-5">Certifications</h1>
-                    <ul className="text-color-text-body-white text-xl list-disc list-inside">
+                    <ul className="text-color-text-body-white text-2xl list-disc list-inside">
                         <li className="mb-5">
                             Azure Fundamentals
                         </li>
