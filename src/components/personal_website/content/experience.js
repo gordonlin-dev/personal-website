@@ -8,7 +8,7 @@ export default function Experience() {
                         className="text-color-text-header-light-blue text-4xl text-center mb-5">Experience</h1>
                     <ul className="text-color-text-body-white text-2xl">
                         <li className="mb-5">
-                            <div className="font-bold text-3xl">
+                            <div className="font-bold text-2xl">
                                 Software developer
                             </div>
                             <div className="flex justify-between">
@@ -17,7 +17,7 @@ export default function Experience() {
                             </div>
                         </li>
                         <li className="mb-5">
-                            <div className="font-bold text-3xl">
+                            <div className="font-bold text-2xl">
                                 Software developer intern
                             </div>
                             <div className="flex justify-between">
@@ -45,7 +45,7 @@ export default function Experience() {
                     <h1 className="text-color-text-header-light-blue text-4xl text-center mb-5">Skills</h1>
                     <ul className="text-color-text-body-white text-2xl">
                         <li className="mb-5">
-                            <div className="font-bold text-2xl">
+                            <div className="font-bold text-2xl pb-2">
                                 Programming languages
                             </div>
                             <div>
@@ -58,7 +58,7 @@ export default function Experience() {
                             </div>
                         </li>
                         <li className="mb-5">
-                            <div className="font-bold text-2xl">
+                            <div className="font-bold text-2xl pb-2">
                                 Technologies
                             </div>
                             <div>
