@@ -5,13 +5,13 @@ export default function AboutMe() {
         <>
             <h1 id="about-me" className="invisible">About me</h1>
             <div className="grid grid-cols-12 pb-40">
-                <div className="col-span-5">
+                <div className="col-span-5 h-[475px] w-[475px] rounded-full overflow-hidden">
                     <Image
-                        src="/profile-placeholder.png"
+                        src="/profile.jpg"
                         alt=""
-                        width={400}
-                        height={400}
-                        className="h-[400px] w-[400px] relative z-[0]"
+                        width={441}
+                        height={511}
+                        className="h-full w-full relative z-[0]"
                     />
                 </div>
                 <div className="col-span-7 flex items-center">
