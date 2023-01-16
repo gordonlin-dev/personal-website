@@ -1,3 +1,3 @@
-# Tech stack
+# Technology Stack
 - Next.js
 - Tailwind CSS
