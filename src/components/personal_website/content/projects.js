@@ -69,7 +69,7 @@ export default function Projects() {
                         src="/MeetUT_Logo.png"
                         alt=""
                         description={meetUTDescription()}
-                        link="https://github.com/gordonlin-dev"
+                        link="https://github.com/gordonlin-dev/MeetUT#meetut"
                     />
                 </div>
             </div>
