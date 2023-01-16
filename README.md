@@ -1,1 +1,3 @@
-# personal-website
+# Tech stack
+- Next.js
+- Tailwind CSS
