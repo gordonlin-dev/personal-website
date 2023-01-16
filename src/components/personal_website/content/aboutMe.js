@@ -7,7 +7,7 @@ export default function AboutMe() {
             <div className="grid grid-cols-12 pb-40">
                 <div className="col-span-5 h-[475px] w-[475px] rounded-full overflow-hidden">
                     <Image
-                        src="/profile-3.jpg"
+                        src="/profile.jpg"
                         alt=""
                         width={441}
                         height={511}
