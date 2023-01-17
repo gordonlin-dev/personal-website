@@ -8,7 +8,7 @@ export default function Landing() {
                 alt=""
                 width={3888}
                 height={2592}
-                className="w-screen h-auto lg:h-screen lg:w-auto lg:aspect-[2043∶1160]"
+                className="w-screen h-auto lg:h-screen lg:w-screen lg:aspect-[2043∶1160]"
             />
         </div>
     )
