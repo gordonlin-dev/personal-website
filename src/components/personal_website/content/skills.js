@@ -6,7 +6,7 @@ export default function Skills() {
             <h1 className="text-center text-color-text-header-light-blue font-bold text-[2.5rem] pb-[1vh]
                 xl:text-[2.25rem] xl:pb-[5vh]">Skills</h1>
             <div className="text-color-text-body-white text-[1.1rem]
-                xl:grid xl:grid-cols-4">
+                xl:grid xl:grid-cols-4 xl:mb-[10vh]">
                 <div className="flex justify-center">
                     <div className="border rounded-3xl w-[60vw] xl:mr-[2vw] xl:w-[15vw] xl:mb-[5vh]">
                         <div className="font-bold text-[1.4rem] text-center xl:mb-[2vh] ">Languages</div>

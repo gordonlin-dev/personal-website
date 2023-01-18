@@ -4,7 +4,7 @@ export default function AboutMe() {
     return(
         <>
             <h1 id="about-me" className="invisible">About me</h1>
-            <div className="mb-[5vh] xl:grid xl:grid-cols-2 xl:mb-[20vh]">
+            <div className="mb-[5vh] xl:grid xl:grid-cols-2 xl:mb-[10vh]">
                 <div>
                     <div className="flex justify-center lg:block">
                         <div className="h-[200px] w-[200px] md:h-[350px] md:w-[350px] xl:h-[500px]
