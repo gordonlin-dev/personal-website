@@ -3,10 +3,9 @@ import Image from "next/image";
 export default function Experience() {
     return(
         <>
-            <h1 id="experience" className="invisible">Experience</h1>
             <div className="mb-[5vh] xl:grid xl:grid-cols-2 xl:mb-[10vh] xl:ml-[5vw] xl:mr-[5vw]">
                 <div className="text-color-text-body-white text-[1.1rem] xl:border-r-[0.3rem] xl:border-r-gray-800">
-                    <h1 className="text-center text-color-text-header-dark-yellow font-bold text-[2rem] pb-[1vh]
+                    <h1 id="experience" className="text-center text-color-text-header-dark-yellow font-bold text-[2rem] pb-[1vh]
                         xl:text-[2.25rem] xl:pb-[3vh]">Experience</h1>
                     <div className="mb-[2vh] ml-[2vw] flex flex-row xl:mb-[1vh]">
                         <Image

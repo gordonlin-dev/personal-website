@@ -2,11 +2,16 @@ import {useEffect} from "react";
 
 export default function TableOfContent(){
     useEffect(() => {
-        const validHeaderIds = ["about-me", "experience", "projects", "contact"]
-        const tableOfContentLinks = document.getElementById("table-of-content").children
+        const validHeaderIds = ["about-me","skills","experience", "projects", "contact"]
+        const tableOfContent = document.getElementById("table-of-content")
+        const tableOfContentLinks = tableOfContent.children[0].children
+        let lastIntersected = "about-me";
         const observer = new IntersectionObserver(entries => {
+            let tableOfContentVisible = false;
             entries.forEach(entry =>{
                 if(entry.isIntersecting && validHeaderIds.includes(entry.target.id)){
+                    tableOfContentVisible = true;
+                    lastIntersected = entry.target.id
                     const currentId = entry.target.id
                     for (let i = 0; i < tableOfContentLinks.length; i++){
                         const id = tableOfContentLinks[i].id
@@ -18,8 +23,10 @@ export default function TableOfContent(){
                     }
                 }
             })
+            tableOfContentVisible = tableOfContentVisible || lastIntersected !== "about-me"
+            tableOfContent.style.visibility = tableOfContentVisible ? "visible"  : "hidden";
         }, {
-            rootMargin: "-10% 0px -40% 0px"
+            rootMargin: "-20% 0px -20% 0px"
         })
         const headings = Array.from(document.querySelectorAll("h1"));
         headings.forEach((element) => observer.observe(element))
@@ -27,7 +34,7 @@ export default function TableOfContent(){
     })
     function scroll(e, id){
         e.preventDefault()
-        document.querySelector("#" + id).scrollIntoView(
+        document.querySelector("h1#" + id).scrollIntoView(
             {
                 behavior: "smooth",
                 block:"center",
@@ -36,21 +43,26 @@ export default function TableOfContent(){
         )
     }
     return(
-        <nav>
-            <ul className="text-color-text-body-white text-2xl" id="table-of-content">
-                <li className= "mb-3" id="about-me">
+        <nav id="table-of-content" className="hidden invisible xl:block xl:z-50 xl:fixed xl:top-[0vh]
+        xl:left-[35vw] bg-background-main-transparent
+        xl:rounded-[2rem] xl:pt-[1vh] xl:pb-[1vh] xl:pl-[1.5vw] xl:pr-[1.5vw]">
+            <div className="text-color-text-body-white text-[1.25rem] flex flex-row justify-center" >
+                <div className= "mr-[2vw] hover:text-color-text-header-light-blue" id="about-me">
                     <a href="#about-me" onClick={(e) => scroll(e, "about-me")}>About me</a>
-                </li>
-                <li className= "mb-3" id="experience">
-                    <a href="#experience" onClick={(e) => scroll(e, "experience")}>Experience</a>
-                </li>
-                <li className= "mb-3" id="projects">
+                </div>
+                <div className= "mr-[2vw] hover:text-color-text-header-light-blue" id="skills">
+                    <a href="#skills" onClick={(e) => scroll(e, "skills")}>Skills</a>
+                </div>
+                <div className= "mr-[2vw] hover:text-color-text-header-light-blue" id="projects">
                     <a href="#projects" onClick={(e) => scroll(e, "projects")}>Projects</a>
-                </li>
-                <li className= "mb-3" id="contact">
+                </div>
+                <div className= "mr-[2vw] hover:text-color-text-header-light-blue" id="experience">
+                    <a href="#experience" onClick={(e) => scroll(e, "experience")}>Experience</a>
+                </div>
+                <div className= "hover:text-color-text-header-light-blue" id="contact">
                     <a href="#contact" onClick={(e) => scroll(e, "contact")}>Contact</a>
-                </li>
-            </ul>
+                </div>
+            </div>
         </nav>
     )
 }
