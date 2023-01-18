@@ -7,9 +7,9 @@ export default function Contact() {
     }
     return(
         <>
-            <h1 id="contact" className="text-center text-color-text-header-light-blue font-bold text-[2.5rem] pb-[1vh]
+            <h1 id="contact" className="text-center text-color-text-header-dark-yellow font-bold text-[2rem] pb-[1vh]
                 xl:text-[2.25rem] xl:pb-[5vh]">Contact Me</h1>
-            <div className="flex justify-between ml-[8vw] mr-[8vw] pb-[3vh] xl:ml-[22vw] xl:mr-[22vw] xl:pb-[10vh]">
+            <div className="flex justify-between ml-[8vw] mr-[8vw] pb-[3vh] xl:ml-[25vw] xl:mr-[25vw] xl:pb-[10vh]">
                 <a href="mailto:gordonlin.dev@gmail.com">
                     <Image
                         src="/envelope-icon.png"

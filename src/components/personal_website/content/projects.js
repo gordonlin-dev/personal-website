@@ -4,27 +4,26 @@ export default function Projects() {
     const websiteDescription = () =>{
         return(
             <div>
-                <div>
+                <p>
                     This website is made with Next.js and Tailwind CSS.
-                </div>
-                <br/>
-                <div>
+                </p>
+                <p>
                     Deployed from Github, hosted on Azure using Azure App Service
-                </div>
+                </p>
             </div>
         )
     }
     const timeCourseDescription = () =>{
         return(
             <div>
-                <div>
+                <p>
                     TimeCourse is an online appointments system for professors to host office hours.
                     Professors can create organizations and invite students via invitation code
-                </div>
+                </p>
                 <br/>
-                <div>
+                <p>
                     Users have the option of syncing the appointment bookings with their Outlook calendar.
-                </div>
+                </p>
             </div>
         )
     }
@@ -45,18 +44,18 @@ export default function Projects() {
     }
     return(
         <>
-            <h1  id="projects" className="text-color-text-header-dark-yellow
-                font-bold text-center text-4xl mb-20">Personal Projects</h1>
-            <div className="grid grid-rows-1 grid-cols-3 pb-40 gap-x-20">
-                <div>
+            <h1 id="projects" className="text-center text-color-text-header-dark-yellow font-bold text-[2rem] pb-[3vh]
+                xl:text-[2.25rem] xl:pb-[5vh]">Personal Projects</h1>
+            <div className="mb-[10vh] xl:flex xl:flex-row xl:ml-[1.75vw]">
+                <div className="mb-[5vh] xl:mb-[3vh] xl:mr-[2vw]">
                     <ImageContainer
-                        src="/github-logo-1.png"
+                        src="/landing_logo.png"
                         alt=""
                         description={websiteDescription()}
                         link="https://github.com/gordonlin-dev/personal-website"
                     />
                 </div>
-                <div>
+                <div className="mb-[5vh] xl:mb-[3vh] xl:mr-[2vw]">
                     <ImageContainer
                         src="/TimeCourse_logo.png"
                         alt=""

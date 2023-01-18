@@ -3,14 +3,15 @@ import Image from "next/image";
 export default function Skills() {
     return(
         <>
-            <h1 className="text-center text-color-text-header-light-blue font-bold text-[2.5rem] pb-[1vh]
+            <h1 className="text-center text-color-text-header-dark-yellow font-bold text-[2rem] pb-[1vh]
                 xl:text-[2.25rem] xl:pb-[5vh]">Skills</h1>
-            <div className="text-color-text-body-white text-[1.1rem]
-                xl:grid xl:grid-cols-4 xl:mb-[10vh]">
+            <div className="text-color-text-body-white text-[1rem] mb-[5vh]
+                xl:grid xl:grid-cols-4 xl:mb-[10vh] xl:ml-[2vw]">
                 <div className="flex justify-center">
-                    <div className="border rounded-3xl w-[60vw] xl:mr-[2vw] xl:w-[15vw] xl:mb-[5vh]">
-                        <div className="font-bold text-[1.4rem] text-center xl:mb-[2vh] ">Languages</div>
-                        <div className="mb-[2vh] ml-[2vw]">
+                    <div className="border-[0.3rem] rounded-3xl border-gray-800 w-[60vw] xl:mr-[2vw] xl:w-[15vw] xl:mb-[5vh]">
+                        <div className="font-bold text-[1.3rem] text-center mt-[3vh] mb-[2vh]
+                        xl:mb-[3vh] text-color-text-header-light-blue">Languages</div>
+                        <div className="mb-[2vh] ml-[5vw] xl:ml-[2vw]">
                             <Image
                                 src="/skills_logos/csharp.png"
                                 alt=""
@@ -22,7 +23,7 @@ export default function Skills() {
                                 C#
                             </div>
                         </div>
-                        <div className="mb-[2vh] ml-[2vw]">
+                        <div className="mb-[2vh] ml-[5vw] xl:ml-[2vw]">
                             <Image
                                 src="/skills_logos/javascript.png"
                                 alt=""
@@ -34,7 +35,7 @@ export default function Skills() {
                                 JavaScript
                             </div>
                         </div>
-                        <div className="mb-[2vh] ml-[2vw]">
+                        <div className="mb-[4vh] ml-[5vw] xl:ml-[2vw]">
                             <Image
                                 src="/skills_logos/python.png"
                                 alt=""
@@ -50,9 +51,10 @@ export default function Skills() {
                 </div>
                 <br className="xl:hidden"/>
                 <div className="flex justify-center">
-                    <div className="border rounded-3xl w-[60vw] xl:mr-[2vw] xl:w-[15vw] xl:mb-[5vh]">
-                        <div className="font-bold text-[1.4rem] text-center xl:mb-[2vh]">Web</div>
-                        <div className="mb-[2vh] ml-[2vw]">
+                    <div className="border-[0.3rem] rounded-3xl border-gray-800 w-[60vw] xl:mr-[2vw] xl:w-[15vw] xl:mb-[5vh]">
+                        <div className="font-bold text-[1.3rem] text-center mt-[3vh] mb-[2vh]
+                        xl:mb-[3vh] text-color-text-header-light-blue">Web</div>
+                        <div className="mb-[2vh] ml-[5vw] xl:ml-[2vw]">
                             <Image
                                 src="/skills_logos/dotnetcore.png"
                                 alt=""
@@ -64,7 +66,7 @@ export default function Skills() {
                                 ASP.NET Core
                             </div>
                         </div>
-                        <div className="mb-[2vh] ml-[2vw]">
+                        <div className="mb-[2vh] ml-[5vw] xl:ml-[2vw]">
                             <Image
                                 src="/skills_logos/blazor.png"
                                 alt=""
@@ -76,7 +78,7 @@ export default function Skills() {
                                 Blazor
                             </div>
                         </div>
-                        <div className="mb-[2vh] ml-[2vw]">
+                        <div className="mb-[4vh] ml-[5vw] xl:ml-[2vw]">
                             <Image
                                 src="/skills_logos/nextjs.png"
                                 alt=""
@@ -92,9 +94,10 @@ export default function Skills() {
                 </div>
                 <br className="xl:hidden"/>
                 <div className="flex justify-center">
-                    <div className="border rounded-3xl w-[60vw] xl:mr-[2vw] xl:w-[15vw] xl:mb-[5vh]">
-                        <div className="font-bold text-[1.4rem] text-center xl:mb-[2vh]">Database</div>
-                        <div className="mb-[2vh] ml-[2vw]">
+                    <div className="border-[0.3rem] rounded-3xl border-gray-800 w-[60vw] xl:mr-[2vw] xl:w-[15vw] xl:mb-[5vh]">
+                        <div className="font-bold text-[1.3rem]
+                        text-center mt-[3vh] mb-[2vh] xl:mb-[3vh] text-color-text-header-light-blue">Database</div>
+                        <div className="mb-[2vh] ml-[5vw] xl:ml-[2vw]">
                             <Image
                                 src="/skills_logos/sql.png"
                                 alt=""
@@ -106,7 +109,7 @@ export default function Skills() {
                                 Microsoft SQL
                             </div>
                         </div>
-                        <div className="mb-[2vh] ml-[2vw]">
+                        <div className="mb-[2vh] ml-[5vw] xl:ml-[2vw]">
                             <Image
                                 src="/skills_logos/mongodb.png"
                                 alt=""
@@ -118,7 +121,7 @@ export default function Skills() {
                                 MongoDB
                             </div>
                         </div>
-                        <div className="mb-[2vh] ml-[2vw]">
+                        <div className="mb-[4vh] ml-[5vw] xl:ml-[2vw]">
                             <Image
                                 src="/skills_logos/postgre.png"
                                 alt=""
@@ -134,9 +137,10 @@ export default function Skills() {
                 </div>
                 <br className="xl:hidden"/>
                 <div className="flex justify-center">
-                    <div className="border rounded-3xl w-[60vw] xl:mr-[2vw] xl:w-[15vw] xl:mb-[5vh]">
-                        <div className="font-bold text-[1.4rem] text-center xl:mb-[2vh]">Cloud</div>
-                        <div className="mb-[2vh] ml-[2vw]">
+                    <div className="border-[0.3rem] rounded-3xl border-gray-800 w-[60vw] xl:mr-[2vw] xl:w-[15vw] xl:mb-[5vh]">
+                        <div className="font-bold text-[1.3rem]
+                        text-center mt-[3vh] mb-[2vh] xl:mb-[3vh] text-color-text-header-light-blue">Cloud</div>
+                        <div className="mb-[4vh] ml-[5vw] xl:ml-[2vw]">
                             <Image
                                 src="/skills_logos/azure.png"
                                 alt=""
