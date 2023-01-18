@@ -17,6 +17,7 @@ export default function Skills() {
                                 alt=""
                                 width={512}
                                 height={512}
+                                loading="eager"
                                 className="w-[50px] h-[50px] inline rounded-full overflow-hidden"
                             />
                             <div className="inline ml-[3vw] xl:ml-[1vw]">
@@ -29,6 +30,7 @@ export default function Skills() {
                                 alt=""
                                 width={512}
                                 height={512}
+                                loading="eager"
                                 className="w-[50px] h-[50px] inline rounded-full overflow-hidden"
                             />
                             <div className="inline ml-[3vw] xl:ml-[1vw]">
@@ -41,6 +43,7 @@ export default function Skills() {
                                 alt=""
                                 width={512}
                                 height={512}
+                                loading="eager"
                                 className="w-[50px] h-[50px] inline rounded-full overflow-hidden"
                             />
                             <div className="inline ml-[3vw] xl:ml-[1vw]">
@@ -60,18 +63,22 @@ export default function Skills() {
                                 alt=""
                                 width={512}
                                 height={512}
+                                loading="eager"
                                 className="w-[50px] h-[50px] inline rounded-full overflow-hidden"
                             />
                             <div className="inline ml-[3vw] xl:ml-[1vw]">
                                 ASP.NET Core
                             </div>
                         </div>
+
+
                         <div className="mb-[2vh] ml-[5vw] xl:ml-[2vw]">
                             <Image
                                 src="/skills_logos/blazor.png"
                                 alt=""
                                 width={512}
                                 height={512}
+                                loading="eager"
                                 className="w-[50px] h-[50px] inline rounded-full overflow-hidden"
                             />
                             <div className="inline ml-[3vw] xl:ml-[1vw]">
@@ -84,6 +91,7 @@ export default function Skills() {
                                 alt=""
                                 width={512}
                                 height={512}
+                                loading="eager"
                                 className="w-[50px] h-[50px] inline rounded-full overflow-hidden"
                             />
                             <div className="inline ml-[3vw] xl:ml-[1vw]">
@@ -103,6 +111,7 @@ export default function Skills() {
                                 alt=""
                                 width={512}
                                 height={512}
+                                loading="eager"
                                 className="w-[50px] h-[50px] inline rounded-full overflow-hidden"
                             />
                             <div className="inline ml-[3vw] xl:ml-[1vw]">
@@ -115,6 +124,7 @@ export default function Skills() {
                                 alt=""
                                 width={512}
                                 height={512}
+                                loading="eager"
                                 className="w-[50px] h-[50px] inline rounded-full overflow-hidden"
                             />
                             <div className="inline ml-[3vw] xl:ml-[1vw]">
@@ -127,6 +137,7 @@ export default function Skills() {
                                 alt=""
                                 width={512}
                                 height={512}
+                                loading="eager"
                                 className="w-[50px] h-[50px] inline rounded-full overflow-hidden"
                             />
                             <div className="inline ml-[3vw] xl:ml-[1vw]">
@@ -146,6 +157,7 @@ export default function Skills() {
                                 alt=""
                                 width={512}
                                 height={512}
+                                loading="eager"
                                 className="w-[50px] h-[50px] inline rounded-full overflow-hidden"
                             />
                             <div className="inline ml-[3vw] xl:ml-[1vw]">

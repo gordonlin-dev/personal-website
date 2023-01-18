@@ -14,6 +14,7 @@ export default function ImageContainer(props){
                         alt={props.alt}
                         width={400}
                         height={400}
+                        loading="eager"
                         className="h-[200px] w-[200px] relative z-[1] rounded-[3rem]"
                     />
                 </a>
@@ -30,6 +31,7 @@ export default function ImageContainer(props){
                         alt={props.alt}
                         width={400}
                         height={400}
+                        loading="eager"
                         className="h-[400px] w-[400px] relative z-[1] rounded-[5rem]"
                     />
                     <div className=" hidden group-hover:flex text-color-text-body-white

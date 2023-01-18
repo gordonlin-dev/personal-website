@@ -13,6 +13,7 @@ export default function Experience() {
                             alt=""
                             width={512}
                             height={512}
+                            loading="eager"
                             className="w-[60px] h-[60px] inline rounded-full overflow-hidden"
                         />
                         <div className="mb-[2vh] ml-[5vw] xl:ml-[2vw]">
@@ -27,6 +28,7 @@ export default function Experience() {
                             alt=""
                             width={512}
                             height={512}
+                            loading="eager"
                             className="w-[60px] h-[60px] inline rounded-full overflow-hidden"
                         />
                         <div className="mb-[2vh] ml-[5vw] xl:ml-[2vw]">
@@ -46,6 +48,7 @@ export default function Experience() {
                                 alt=""
                                 width={512}
                                 height={512}
+                                loading="eager"
                                 className="w-[60px] h-[60px] inline rounded-full overflow-hidden"
                             />
                             <div className="mb-[3vh] ml-[5vw] xl:ml-[2vw]">
@@ -64,6 +67,7 @@ export default function Experience() {
                                 alt=""
                                 width={512}
                                 height={512}
+                                loading="eager"
                                 className="w-[60px] h-[60px] inline rounded-full overflow-hidden"
                             />
                             <div className="ml-[5vw] h-[60px] flex items-center xl:ml-[2vw]">
@@ -76,6 +80,7 @@ export default function Experience() {
                                 alt=""
                                 width={512}
                                 height={512}
+                                loading="eager"
                                 className="w-[60px] h-[60px] inline rounded-full overflow-hidden"
                             />
                             <div className="ml-[5vw] h-[60px] flex items-center xl:ml-[2vw]">

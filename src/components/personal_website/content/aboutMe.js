@@ -13,6 +13,7 @@ export default function AboutMe() {
                                 alt=""
                                 width={2715}
                                 height={3220}
+                                loading="eager"
                                 className="aspect-[543/644]"
                             />
                         </div>
