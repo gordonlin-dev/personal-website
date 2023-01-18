@@ -4,10 +4,10 @@ export default function Experience() {
     return(
         <>
             <h1 id="experience" className="invisible">Experience</h1>
-            <div className="xl:grid xl:grid-cols-2">
+            <div className="xl:grid xl:grid-cols-2 xl:mb-[10vh]">
                 <div className="text-color-text-body-white text-[1.1rem] xl:border-r-2">
-                    <h1 className="text-center text-color-text-header-light-blue font-bold text-[2.5rem] pb-[1vh]
-                        xl:text-[2.25rem] xl:pb-[2vh]">Experience</h1>
+                    <h1 className="text-center text-color-text-header-dark-yellow font-bold text-[2.5rem] pb-[1vh]
+                        xl:text-[2.25rem] xl:pb-[2vh] xl:text-color-text-header-dark-yellow">Experience</h1>
                     <div className="mb-[2vh] ml-[2vw] flex flex-row xl:mb-[1vh]">
                         <Image
                             src="/skills_logos/environmentcanada.jpg"
@@ -40,7 +40,7 @@ export default function Experience() {
                 <div className="xl:ml-[2vw]">
                     <div className="text-color-text-body-white text-[1.1rem]">
                         <h1 className="text-center text-color-text-header-light-blue font-bold text-[2.5rem] pb-[1vh]
-                xl:text-[2.25rem] xl:pb-[2vh]">Education</h1>
+                xl:text-[2.25rem] xl:pb-[2vh] xl:text-color-text-header-dark-yellow">Education</h1>
                         <div className="mb-[2vh] ml-[2vw] flex flex-row xl:mb-[1vh]">
                             <Image
                                 src="/skills_logos/uoft.png"
@@ -57,8 +57,8 @@ export default function Experience() {
                         </div>
                     </div>
                     <div className="text-color-text-body-white text-[1.1rem] pb-[1vh]">
-                        <h1 className="text-center text-color-text-header-light-blue font-bold text-[2.5rem] pb-[1vh]
-                xl:text-[2.25rem] xl:pb-[2vh]">Certifications</h1>
+                        <h1 className="text-center text-color-text-header-dark-yellow font-bold text-[2.5rem] pb-[1vh]
+                xl:text-[2.25rem] xl:pb-[2vh] xl:text-color-text-header-dark-yellow">Certifications</h1>
                         <div className="mb-[2vh] ml-[2vw] flex flex-row">
                             <Image
                                 src="/skills_logos/azurefundamentals.png"

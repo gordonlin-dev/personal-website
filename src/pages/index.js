@@ -15,6 +15,7 @@ export default function Index() {
               <AboutMe/>
               <Skills/>
               <Experience/>
+              <Contact/>
           </div>
       </MainLayout>
   )
