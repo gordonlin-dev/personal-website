@@ -22,8 +22,8 @@ export default function AboutMe() {
                 <br className="xl:hidden"/>
                 <div>
                     <h1 className="text-center text-color-text-header-dark-yellow font-bold text-[2.5rem]
-                        xl:text-left xl:text-6xl xl:pb-[2vh]">About me</h1>
-                    <p className="text-color-text-body-white text-[1.1rem] xl:text-[1.5rem] text-justify">
+                        xl:text-left xl:text-[2.25rem] xl:pb-[2vh]">About me</h1>
+                    <p className="text-color-text-body-white text-[1.1rem] xl:text-[1.25rem] text-justify">
                         Hi I am Gordon, a software developer with three years of experience based in Toronto, Canada.
                         I am a full stack developer with a focus on backend development.
                         My interests are in cloud computing, observability and distributed systems.
