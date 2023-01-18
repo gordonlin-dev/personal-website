@@ -14,6 +14,7 @@ export default function Index() {
           <div className="pl-[10vw] pr-[10vw] xl:ml-[5vw] xl:mr-[5vw] xl:pt-[8vh] bg-background-main">
               <AboutMe/>
               <Skills/>
+              <Experience/>
           </div>
       </MainLayout>
   )

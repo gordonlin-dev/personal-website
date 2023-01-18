@@ -1,91 +1,89 @@
+import Image from "next/image";
+
 export default function Experience() {
     return(
         <>
             <h1 id="experience" className="invisible">Experience</h1>
-            <div className="grid grid-cols-2 grid-rows-2 pl-10 pr-10 pb-40">
-                <div>
-                    <h1
-                        className="text-color-text-header-light-blue text-4xl text-center mb-5">Experience</h1>
-                    <ul className="text-color-text-body-white text-2xl">
-                        <li className="mb-5">
-                            <div className="font-bold text-2xl">
-                                Software developer
-                            </div>
-                            <div className="flex justify-between">
-                                <span>Environment Canada</span>
-                                <span className="text-right">May 2021 - Present</span>
-                            </div>
-                        </li>
-                        <li className="mb-5">
-                            <div className="font-bold text-2xl">
-                                Software developer intern
-                            </div>
-                            <div className="flex justify-between">
-                                <span>Environment Canada</span>
-                                <span>May 2019 - Aug 2020</span>
-                            </div>
-                        </li>
-                    </ul>
+            <div className="xl:grid xl:grid-cols-2">
+                <div className="text-color-text-body-white text-[1.1rem] xl:border-r-2">
+                    <h1 className="text-center text-color-text-header-light-blue font-bold text-[2.5rem] pb-[1vh]
+                        xl:text-[2.25rem] xl:pb-[2vh]">Experience</h1>
+                    <div className="mb-[2vh] ml-[2vw] flex flex-row xl:mb-[1vh]">
+                        <Image
+                            src="/skills_logos/environmentcanada.jpg"
+                            alt=""
+                            width={512}
+                            height={512}
+                            className="w-[60px] h-[60px] inline rounded-full overflow-hidden"
+                        />
+                        <div className="mb-[2vh] ml-[5vw] xl:ml-[2vw]">
+                            <div>Software Developer</div>
+                            <div className="text-[0.9rem]">Environment Canada</div>
+                            <div className="text-[0.9rem]">May 2021 - Present</div>
+                        </div>
+                    </div>
+                    <div className="mb-[2vh] ml-[2vw] flex flex-row">
+                        <Image
+                            src="/skills_logos/environmentcanada.jpg"
+                            alt=""
+                            width={512}
+                            height={512}
+                            className="w-[60px] h-[60px] inline rounded-full overflow-hidden"
+                        />
+                        <div className="mb-[2vh] ml-[5vw] xl:ml-[2vw]">
+                            <div>Software Developer Intern</div>
+                            <div className="text-[0.9rem]">Environment Canada</div>
+                            <div className="text-[0.9rem]">May 2019 - Aug 2020</div>
+                        </div>
+                    </div>
                 </div>
-                <div className="ml-24">
-                    <h1 className="text-color-text-header-light-blue text-4xl text-center mb-5">Education</h1>
-                    <ul className="text-color-text-body-white text-2xl">
-                        <li className="mb-5">
-                            <div className="font-bold text-2xl">
-                                Honours Bachelor of Science - Computer Science
+                <div className="xl:ml-[2vw]">
+                    <div className="text-color-text-body-white text-[1.1rem]">
+                        <h1 className="text-center text-color-text-header-light-blue font-bold text-[2.5rem] pb-[1vh]
+                xl:text-[2.25rem] xl:pb-[2vh]">Education</h1>
+                        <div className="mb-[2vh] ml-[2vw] flex flex-row xl:mb-[1vh]">
+                            <Image
+                                src="/skills_logos/uoft.png"
+                                alt=""
+                                width={512}
+                                height={512}
+                                className="w-[60px] h-[60px] inline rounded-full overflow-hidden"
+                            />
+                            <div className="mb-[2vh] ml-[5vw] xl:ml-[2vw]">
+                                <div>BSc - Computer Science</div>
+                                <div className="text-[0.9rem]">University of Toronto</div>
+                                <div className="text-[0.9rem]">Sep 2015 - May 2021</div>
                             </div>
-                            <div className="flex justify-between">
-                                <span>University of Toronto</span>
-                                <span className="text-right">Sep 2015 - May 2021</span>
+                        </div>
+                    </div>
+                    <div className="text-color-text-body-white text-[1.1rem] pb-[1vh]">
+                        <h1 className="text-center text-color-text-header-light-blue font-bold text-[2.5rem] pb-[1vh]
+                xl:text-[2.25rem] xl:pb-[2vh]">Certifications</h1>
+                        <div className="mb-[2vh] ml-[2vw] flex flex-row">
+                            <Image
+                                src="/skills_logos/azurefundamentals.png"
+                                alt=""
+                                width={512}
+                                height={512}
+                                className="w-[60px] h-[60px] inline rounded-full overflow-hidden"
+                            />
+                            <div className="ml-[5vw] h-[60px] flex items-center xl:ml-[2vw]">
+                                <div>Azure Fundamentals</div>
                             </div>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h1 className="text-color-text-header-light-blue text-4xl text-center mb-5">Skills</h1>
-                    <ul className="text-color-text-body-white text-2xl">
-                        <li className="mb-5">
-                            <div className="font-bold text-2xl pb-2">
-                                Programming languages
+                        </div>
+                        <div className="mb-[2vh] ml-[2vw] flex flex-row">
+                            <Image
+                                src="/skills_logos/csm.png"
+                                alt=""
+                                width={512}
+                                height={512}
+                                className="w-[60px] h-[60px] inline rounded-full overflow-hidden"
+                            />
+                            <div className="ml-[5vw] h-[60px] flex items-center xl:ml-[2vw]">
+                                <div>Certified ScrumMaster</div>
                             </div>
-                            <div>
-                                <span className="font-bold">Proficient: </span>
-                                <span>C#, JavaScript</span>
-                            </div>
-                            <div>
-                                <span className="font-bold">Working knowledge: </span>
-                                <span>Python</span>
-                            </div>
-                        </li>
-                        <li className="mb-5">
-                            <div className="font-bold text-2xl pb-2">
-                                Technologies
-                            </div>
-                            <div>
-                                <span className="font-bold">Web: </span>
-                                <span>ASP.NET Core, Blazor, Next.js</span>
-                            </div>
-                            <div>
-                                <span className="font-bold">Databases: </span>
-                                <span>Microsoft SQL, Cosmos DB, MongoDB, PostgreSQL</span>
-                            </div>
-                            <div>
-                                <span className="font-bold">Cloud Platforms: </span>
-                                <span>Azure</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div className="ml-24">
-                    <h1 className="text-color-text-header-light-blue text-4xl text-center mb-5">Certifications</h1>
-                    <ul className="text-color-text-body-white text-2xl list-disc list-inside">
-                        <li className="mb-5">
-                            Azure Fundamentals
-                        </li>
-                        <li className="mb-5">
-                            Certified ScrumMaster
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
