@@ -16,7 +16,6 @@ export default function Contact() {
                         alt=""
                         width={125}
                         height={125}
-                        loading="eager"
                         className="h-[60px] w-[60px] relative z-[1] xl:h-[85px] xl:w-[85px]"
                     />
                 </a>
@@ -27,7 +26,6 @@ export default function Contact() {
                         alt=""
                         width={125}
                         height={125}
-                        loading="eager"
                         className="h-[60px] w-[60px] relative z-[1] xl:h-[85px] xl:w-[85px]"
                     />
                 </a>
@@ -38,7 +36,6 @@ export default function Contact() {
                         alt=""
                         width={125}
                         height={125}
-                        loading="eager"
                         className="h-[60px] w-[60px] relative z-[1] xl:h-[85px] xl:w-[85px]"
                     />
                 </a>

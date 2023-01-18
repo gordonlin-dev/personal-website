@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function AboutMe() {
     return(
         <>
-            <div className="mb-[5vh] xl:grid xl:grid-cols-2 xl:mb-[10vh]">
+            <div className="pt-[3vh] mb-[5vh] xl:grid xl:grid-cols-2 xl:mb-[10vh] xl:pt-[0vh]">
                 <div>
                     <div className="flex justify-center lg:block">
                         <div className="h-[200px] w-[200px] md:h-[350px] md:w-[350px] xl:h-[500px]
