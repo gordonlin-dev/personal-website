@@ -60,7 +60,7 @@ export default function Projects() {
                         src="/TimeCourse_logo.png"
                         alt=""
                         description={timeCourseDescription()}
-                        link="https://github.com/gordonlin-dev"
+                        link="https://github.com/gordonlin-dev/TimeCourse#timecourse"
                     />
                 </div>
                 <div>
